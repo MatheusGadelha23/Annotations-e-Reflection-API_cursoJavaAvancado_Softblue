@@ -1,5 +1,10 @@
 package exercicio2;
 
+/**
+ * 
+ * @author Matheus Gadelha
+ * Classe que representa uma pessoa
+ */
 public class Pessoa {
 	
 	private String nome;
