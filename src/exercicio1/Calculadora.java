@@ -8,12 +8,12 @@ public class Calculadora {
 	/**
 	 * Valor 1
 	 */
-	private int n1;
+	private int numero1;
 	
 	/**
 	 * Valor 2
 	 */
-	private int n2;
+	private int numero2;
 	
 	/**
 	 * 
@@ -24,8 +24,8 @@ public class Calculadora {
 	 */
 	@Init(runOnInstantiation = true)
 	public void init() {
-		this.n1 = 10;
-		this.n2 = 20;
+		this.numero1 = 10;
+		this.numero2 = 20;
 	}
 	
 	/**
@@ -33,7 +33,7 @@ public class Calculadora {
 	 * @return a soma de dois números
 	 */
 	public int somar() {
-		return n1 + n2;
+		return numero1 + numero2;
 	}
 	
 	/**
@@ -41,7 +41,7 @@ public class Calculadora {
 	 * @return a multiplicação de dois números
 	 */
 	public int multiplicar() {
-		return (n1 * n2);
+		return numero1 * numero2;
 	}
 
 }
